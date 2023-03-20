@@ -1,0 +1,97 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hey {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+}
+
+nav {
+    display: flex;
+    width: 86%;
+    margin: auto;
+    padding: 13px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 12px 22px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+            nav ul li a:hover {
+                color: #00ffff;
+            }
+
+.detail {
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+    .detail h1 {
+        font-size: 50px;
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+
+span {
+    font-size: 50px;
+    color: #ff6a00;
+    text-decoration: wavy;
+}
+
+.detail p {
+    font-size: 30px;
+    color: #0026ff;
+    line-height: 20px;
+    font-style: oblique;
+}
+
+.detail a {
+    background: #ff6a00;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #eff4fd;
+    display: inline-block;
+    margin: 0px 0;
+    border-radius: 7px;
+}
+
+.image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
+
+    .image img {
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s,left 1s;
+    }
+
+    .image:hover .shape {
+        bottom: 40px;
+    }
+
+    .image:hover .ajayvickram {
+        left: 45%
+    }
